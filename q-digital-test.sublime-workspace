@@ -1,0 +1,456 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p",
+				"putdown"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"grid-r",
+				"grid-row"
+			],
+			[
+				"grid-column",
+				"grid-column-end"
+			],
+			[
+				"gri",
+				"grid-column"
+			],
+			[
+				"gr",
+				"grid-column"
+			],
+			[
+				"grid",
+				"grid-row"
+			],
+			[
+				"backgrou",
+				"background-clip"
+			],
+			[
+				"b",
+				"border"
+			],
+			[
+				"grid-tem",
+				"grid-template-columns"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"flex-",
+				"flex-direction"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"c",
+				"cover"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"s",
+				"space-between"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"f",
+				"flex-start"
+			],
+			[
+				"U",
+				"user-select"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"fi",
+				"fill"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"30px",
+				"30px"
+			],
+			[
+				"t",
+				"text"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"box-",
+				"box-sizing"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"r",
+				"transparent"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"sp",
+				"space-between"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"i",
+				"inherit"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"al",
+				"align-items"
+			],
+			[
+				"fle",
+				"flex-wrap"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"left",
+				"padding-left"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"feature",
+				"feature-item"
+			],
+			[
+				"v",
+				"visually-hidden"
+			],
+			[
+				"main-headr",
+				"main-header-logo"
+			],
+			[
+				"se",
+				"selected-hotel"
+			],
+			[
+				"ho",
+				"hotels-select-form2"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"LoremIpsum: (15) some"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 178.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Work/HTML/Q-Digital/Сайт/Test-site"
+	],
+	"file_history":
+	[
+		"/C/Work/HTML/Github/Portfolio/UCHI/11/index.html",
+		"/C/Work/HTML/Github/Q-Digital/oop.js",
+		"/C/Work/HTML/Github/Portfolio/UCHI/Мои попытки/css/style.css",
+		"/C/Work/HTML/Github/Portfolio/UCHI/11/game.html",
+		"/C/Work/HTML/Уроки/css-grid/14 - Grid Template Areas/areas-FINISHED.html",
+		"/C/Work/HTML/Уроки/css-grid/11 - Spanning and Placing Cardio/get-sweaty-START.html",
+		"/C/Work/HTML/Уроки/css-grid/09 - Sizing Grid Items/sizing-items-START.html",
+		"/C/Work/HTML/Github/Portfolio/andreyponikarovskikh.github.io/style.css",
+		"/C/Work/HTML/Уроки/css-grid/07 - Sizing tracks in CSS Grid/sizing-tracks-START.html",
+		"/C/Work/HTML/Уроки/css-grid/assets/style.css",
+		"/C/Work/HTML/Уроки/css-grid/05 - CSS Grid Implicit vs Explicit Tracks/implicit-vs-explicit-START.html",
+		"/C/Work/HTML/Уроки/css-grid/05 - CSS Grid Implicit vs Explicit Tracks/implicit-vs-explicit-FINISHED.html",
+		"/C/Work/HTML/Уроки/Package Control Messages",
+		"/C/Work/HTML/Уроки/css-grid/03 - CSS Grid Fundamentals/css-grid-fundamentals-START.html",
+		"/C/Work/HTML/Github/Portfolio/andreyponikarovskikh.github.io/index.html",
+		"/C/Work/HTML/Portfolio/style.css",
+		"/C/Work/HTML/Portfolio/index.html",
+		"/C/Work/HTML/Portfolio/nerds/index.html",
+		"/C/Work/HTML/Portfolio/nerds/catalog.html",
+		"/C/Users/Андрей/Documents/GitHub/Portfolio/Barbershop/barbershop-master/barbershop-master/index.html",
+		"/C/Users/Андрей/Documents/GitHub/Portfolio/Barbershop/barbershop-master/barbershop-master/style/main.css",
+		"/C/Users/Андрей/Documents/GitHub/Portfolio/Barbershop/catalog.html",
+		"/C/Users/Андрей/Documents/GitHub/Portfolio/Barbershop/price.html",
+		"/C/Users/Андрей/Documents/GitHub/Portfolio/Barbershop/item.html",
+		"/C/Users/Андрей/Documents/GitHub/666855-sedona/css/style.css",
+		"/C/Users/Андрей/Documents/GitHub/666855-sedona/inner.html",
+		"/C/Users/Андрей/Documents/GitHub/666855-sedona/index.html",
+		"/C/Users/Андрей/Documents/GitHub/Портфолио/Nerds/catalog.html",
+		"/C/Users/Андрей/Documents/GitHub/Портфолио/Nerds/CSS/styles.css",
+		"/C/Users/Андрей/Documents/GitHub/Портфолио/Nerds/imdex.html",
+		"/C/Users/Андрей/Documents/GitHub/103121-sedona/103121-index.html",
+		"/C/Users/Андрей/Documents/GitHub/103121-sedona/103121-catalog.html",
+		"/C/Users/Андрей/Documents/GitHub/103121-sedona/103121-style.css",
+		"/C/Users/Андрей/Documents/GitHub/666855-sedona/inner_.html",
+		"/C/Users/Андрей/Documents/GitHub/Пример 103121-sedona",
+		"/C/Users/Андрей/Documents/GitHub/Пример 103121-sedona-html.html",
+		"/C/Users/Андрей/Documents/GitHub/666855-sedona/css/style_old.css",
+		"/C/Users/Андрей/Documents/GitHub/Пример",
+		"/C/Users/Андрей/Documents/GitHub/666855-sedona/css/normalize.css",
+		"/C/Users/Андрей/Documents/GitHub/666855-sedona/Contributing.md",
+		"/C/Users/Андрей/Documents/GitHub/666855-sedona/.editorconfig",
+		"/C/Users/Андрей/Documents/GitHub/666855-sedona/Readme.md"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "q-digital-test.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 325.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
