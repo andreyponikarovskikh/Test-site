@@ -4,8 +4,76 @@
 		"selected_items":
 		[
 			[
+				"padding-",
+				"padding-right"
+			],
+			[
 				"p",
-				"putdown"
+				"padding-top"
+			],
+			[
+				"grid",
+				"grid-template-rows"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"i",
+				"img\tTag"
+			],
+			[
+				"b",
+				"inline-block"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"Z",
+				"z-index"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"row",
+				"row-reverse"
+			],
+			[
+				"fle",
+				"flex-direction"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"s",
+				"src\tAttr"
 			],
 			[
 				"fu",
@@ -32,16 +100,8 @@
 				"grid-column"
 			],
 			[
-				"grid",
-				"grid-row"
-			],
-			[
 				"backgrou",
 				"background-clip"
-			],
-			[
-				"b",
-				"border"
 			],
 			[
 				"grid-tem",
@@ -50,10 +110,6 @@
 			[
 				"ma",
 				"margin"
-			],
-			[
-				"pa",
-				"padding-left"
 			],
 			[
 				"padding",
@@ -72,24 +128,12 @@
 				"flex-direction"
 			],
 			[
-				"mar",
-				"margin-bottom"
-			],
-			[
 				"m",
 				"margin"
 			],
 			[
 				"c",
 				"cover"
-			],
-			[
-				"ba",
-				"background-size"
-			],
-			[
-				"s",
-				"space-between"
 			],
 			[
 				"back",
@@ -106,10 +150,6 @@
 			[
 				"l",
 				"left"
-			],
-			[
-				"bac",
-				"background-image"
 			],
 			[
 				"fi",
@@ -172,20 +212,12 @@
 				"inline-block"
 			],
 			[
-				"i",
-				"inherit"
-			],
-			[
 				"fon",
 				"font-size"
 			],
 			[
 				"al",
 				"align-items"
-			],
-			[
-				"fle",
-				"flex-wrap"
 			],
 			[
 				"font-s",
@@ -243,6 +275,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 11712,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 2944,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -349,6 +399,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"autorization"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -356,6 +407,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"upper"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -366,8 +418,71 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11712,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9134,
+								9134
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2773.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2944,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2928,
+								2928
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Sixteen.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2738.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -410,7 +525,7 @@
 	"project": "q-digital-test.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 74.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -448,7 +563,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 325.0,
+	"side_bar_width": 165.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
