@@ -228,9 +228,8 @@ white-space: nowrap;
 
 .gallery{
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, 300px); */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 20px;
+  grid-gap:  23px 20px;
   max-width: 940px;
   margin: 0 auto;
 }
@@ -257,7 +256,6 @@ white-space: nowrap;
   height: 379px;
   background-image: url(../img/support_bg.png);
   background-repeat: no-repeat;
-
   padding-top: 70px;
 }
 
@@ -268,8 +266,8 @@ white-space: nowrap;
   font-size: 48px;
   font-weight: 700;
   line-height: 18px;
-  
   margin: 0 auto;
+  padding-bottom: 9px;
 }
 
 .support__info{
@@ -287,7 +285,6 @@ white-space: nowrap;
 .support__menu{
   display: flex;
   justify-content: space-between;
-
   width: 850px;
   margin: 0 auto;
   margin-top: 25px;
@@ -308,7 +305,7 @@ white-space: nowrap;
   font-weight: 700;
   line-height: 17.65px;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .support__item p{
@@ -316,28 +313,114 @@ white-space: nowrap;
   font-weight: 400;
   line-height: 22px;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 2px;
 }
 
 /*-------------footerMenu-------------*/
 .footerMenu{
-  height: 395px;
+  display: flex;
+  justify-content: center;
+
+  height: 328px;
   background-color: #43464a;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 65px;
+  padding-right: 84px;
 }
 
 .joinUs{
-  ;
+  width: 22.4%;
+}
+
+.clientAccount{
+  width: 8.0%;
+}
+
+.ourProducts{
+  width: 12.6%;
+}
+
+.clientServices{
+  width: 12.6%;
 }
 
 .joinUs__header{
   color: #8cdd00;
   font-size: 30px;
   font-weight: 700;
-  line-height: 19.7px;
+  margin-bottom: 20px;
+}
+
+.joinUs img{
+  padding-left: 25px;
+}
+
+.clientAccount__header,
+.ourProducts__header,
+.clientServices__header{
+  color: #8cdd00;
+  font-size: 30px;
+  font-weight: 700;  
+}
+
+.clientAccount a,
+.ourProducts a,
+.clientServices a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.clientAccount ul,
+.ourProducts ul,
+.clientServices ul{
+  list-style: none;
+  list-style-type: none; 
+  padding: 0;
+  margin: -20px auto;
+}
+
+.clientAccount a:hover,
+.ourProducts a:hover,
+.clientServices a:hover{
+  text-decoration: underline;
 }
 
 
 
+.footerCopyright{
+  max-width: 1920px;
+  height: 62px;
+  background-color: #68ae00;
 
+  padding-top: 36px;
+}
+
+.footerCopyright__info{
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footerLinks{
+  display: flex;
+  justify-content: center;
+  max-width: 1920px;
+  height: 292px;
+  background-color: #ffffff;
+}
+
+.footerLinks__picture{
+  max-width: 887px;
+  margin: 0 auto;
+  padding-top: 12px;
+}
+
+.footerLinks__picture img{
+  width: 100%;
+}
