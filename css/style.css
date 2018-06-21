@@ -175,7 +175,7 @@ align-items: center; */
   display: flex;
   justify-content: center;
   margin-top: 63px;
-  height: 548px;
+  height: 518px;
 }
 
 .mainBanner__picture{
@@ -254,7 +254,7 @@ margin-right: 46px;
   color: #333333;
   margin: 0 auto;
 
-  padding-bottom: 40px;
+  padding-bottom: 94px;
 }
 
 .siteExamples__wrapper{
@@ -266,12 +266,16 @@ margin-right: 46px;
   font-size: 48px;
   font-weight: 700;
   line-height: 18px;
+  margin: 0;
+  margin-top: 39px;
 }
 
 .siteExamples__description{
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
+  margin: 0;
+  padding-top: 28px;
 }
 
 .gallery{
@@ -280,6 +284,7 @@ margin-right: 46px;
   grid-gap:  23px 20px;
   max-width: 940px;
   margin: 0 auto;
+  padding-top: 42px;
 }
 
 .gallery__item_wrapper{
