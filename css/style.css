@@ -150,7 +150,7 @@ a {
 }
 
 
-/*------------------Баннер---------------------*/
+/*------------------Banner---------------------*/
 .mainBanner{
   display: flex;
   justify-content: center;
@@ -200,15 +200,17 @@ line-height: 18px;
 white-space: nowrap;
 }
 
-/*----------------Галерея сайтов---------------*/
+/*----------------Sites gallery---------------*/
 .siteExamples{
   min-width: 320px;
   color: #333333;
   margin: 0 auto;
+
+  padding-bottom: 40px;
 }
 
 .siteExamples__wrapper{
-  max-width: 1010px;
+  max-width: 940px;
   margin: 0 auto;
 }
 
@@ -226,9 +228,10 @@ white-space: nowrap;
 
 .gallery{
   display: grid;
-  grid-template-columns: repeat(auto-fit, 300px);
+  /* grid-template-columns: repeat(auto-fit, 300px); */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
-  max-width: 1010px;
+  max-width: 940px;
   margin: 0 auto;
 }
 
@@ -241,8 +244,100 @@ white-space: nowrap;
   /* height: 100%; */
 }
 
+/*Показываем 10 картинок вместо 15*/
 @media (max-width: 400px) {
   .gallery__item_hidden{
     display: none;
 }}
+
+/*------------------Footer-------------------*/
+
+.support{
+  max-width: 1920px;
+  height: 379px;
+  background-image: url(../img/support_bg.png);
+  background-repeat: no-repeat;
+
+  padding-top: 70px;
+}
+
+.support__header{
+  text-align: center;
+  width: 230px;
+  color: #68ae00;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 18px;
+  
+  margin: 0 auto;
+}
+
+.support__info{
+  text-align: center;
+  width: 520px;
+  color: #333333;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 18px;
+
+  margin: 0 auto;
+  margin-top: 25px; 
+}
+
+.support__menu{
+  display: flex;
+  justify-content: space-between;
+
+  width: 850px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.support__item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: #333333;
+}
+
+.support__item h3{
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 17.65px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.support__item p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+/*-------------footerMenu-------------*/
+.footerMenu{
+  height: 395px;
+  background-color: #43464a;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.joinUs{
+  ;
+}
+
+.joinUs__header{
+  color: #8cdd00;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 19.7px;
+}
+
+
+
 

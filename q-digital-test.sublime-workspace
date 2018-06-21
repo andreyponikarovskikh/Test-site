@@ -4,6 +4,62 @@
 		"selected_items":
 		[
 			[
+				"marg",
+				"margin"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"l",
+				"linkedin"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"j",
+				"joinUs"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"main",
+				"mainBanner"
+			],
+			[
 				"padding-",
 				"padding-right"
 			],
@@ -14,14 +70,6 @@
 			[
 				"grid",
 				"grid-template-rows"
-			],
-			[
-				"pa",
-				"padding-bottom"
-			],
-			[
-				"mar",
-				"margin"
 			],
 			[
 				"ba",
@@ -50,10 +98,6 @@
 			[
 				"min-",
 				"min-height"
-			],
-			[
-				"bac",
-				"background-color"
 			],
 			[
 				"row",
@@ -148,32 +192,16 @@
 				"user-select"
 			],
 			[
-				"l",
-				"left"
-			],
-			[
 				"fi",
 				"fill"
-			],
-			[
-				"margin",
-				"margin"
 			],
 			[
 				"u",
 				"uppercase"
 			],
 			[
-				"te",
-				"text-transform"
-			],
-			[
 				"pad",
 				"padding"
-			],
-			[
-				"marg",
-				"margin-left"
 			],
 			[
 				"30px",
@@ -214,10 +242,6 @@
 			[
 				"fon",
 				"font-size"
-			],
-			[
-				"al",
-				"align-items"
 			],
 			[
 				"font-s",
@@ -279,7 +303,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 11712,
+				"buffer_size": 13306,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -288,7 +312,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 2944,
+				"buffer_size": 5326,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -427,15 +451,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11712,
+						"buffer_size": 13306,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9134,
-								9134
+								11329,
+								11315
 							]
 						],
 						"settings":
@@ -446,7 +470,7 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2773.0,
+						"translation.y": 4180.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -458,15 +482,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2944,
+						"buffer_size": 5326,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2928,
-								2928
+								5104,
+								5104
 							]
 						],
 						"settings":
@@ -477,7 +501,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2738.0,
+						"translation.y": 6118.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -525,7 +549,7 @@
 	"project": "q-digital-test.sublime-project",
 	"replace":
 	{
-		"height": 74.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
