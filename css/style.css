@@ -129,12 +129,9 @@ a {
 .mainNav{
   display: flex;
   justify-content: flex-start;
-/*  justify-content: center;
-align-items: center; */
   box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
   height: 80px;
-
 }
 
 .mainNav__logoWrapper{
@@ -169,7 +166,6 @@ align-items: center; */
   color: #f98006;
 }
 
-
 /*------------------Banner---------------------*/
 .mainBanner{
   display: flex;
@@ -184,7 +180,6 @@ align-items: center; */
 
 .mainBanner__aside{
   width: 318px; 
-
 }
 
 .mainBanner__header{
@@ -526,3 +521,138 @@ margin-right: 46px;
 .footerLinks__picture img{
   width: 100%;
 }
+
+ /* ------------------ mobile -------------------- */
+
+.mobileNav{
+  display: none;
+}
+
+.mobileNav__upper{
+  min-width: 320px;
+  height: 76px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mobileNav__logo{
+  width: 90px;
+  height: 47px;
+}
+
+.mobileNav__button{
+  width: 32px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.mobileNav__logoWrapper{
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.mobileNav__buttonWrapper{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.mobileNav__main{
+  min-width: 320px;
+  height: 296px;
+  background-image: url(../img/banner.png);
+  text-align: center;
+  color: #fefefe;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 40px;
+  padding-top: 20px;
+}
+
+.mobileNav__mainPrg1{
+  margin: 0;
+  padding: 0;
+}
+
+.mobileNav__mainPrg2{
+  margin: 0;
+  padding: 0;
+}
+
+.mobileNav__mainPrg3{
+  font-size: 36px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-left: 100px;
+}
+
+.mobileNav__mainSpn1{
+  font-size: 137px;
+  font-weight: 400;
+}
+
+.mobileNav__mainSpn2{
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.mobileNav__mainSpn3{
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.mobileNav__mainPrg4{
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+  margin-top: -4px;
+}
+
+.mobileNav__buttonWrapper2{
+  color: transparent;
+  background-color: transparent;
+  border: none;
+}
+
+
+/*-------------make adjustable view ---------------*/
+@media (max-width: 940px) {
+  .mainBanner,
+  .footerMenu,
+  .support,
+  .mainNav,
+  .footerCopyright,
+  .upperNav{
+    display: none;
+  }
+
+  .siteExamples__header{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    margin-top: 39px;
+  }
+
+  .siteExamples__description{
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 8px;
+  }
+
+}
+
+@media (max-width: 939px){
+  .mobileNav,
+  .mobileFooter{
+    display: block;
+  }
+}
+
+
+

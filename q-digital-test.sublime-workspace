@@ -4,24 +4,80 @@
 		"selected_items":
 		[
 			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
 				"marg",
-				"margin"
+				"margin-left"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"j",
+				"jc-fe\tjustify-content: flex-end;"
+			],
+			[
+				"fle",
+				"flex-start"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"footer",
+				"footerLinks"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"foo",
+				"footerCopyright"
+			],
+			[
+				"s",
+				"section\tTag"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
 			],
 			[
 				"background-c",
 				"background-color"
 			],
 			[
-				"l",
-				"linkedin"
-			],
-			[
 				"al",
 				"alt\tAttr"
-			],
-			[
-				"j",
-				"joinUs"
 			],
 			[
 				"bac",
@@ -32,16 +88,8 @@
 				"margin-top"
 			],
 			[
-				"mar",
-				"margin"
-			],
-			[
 				"ali",
 				"align-items"
-			],
-			[
-				"pa",
-				"padding-right"
 			],
 			[
 				"te",
@@ -104,20 +152,12 @@
 				"row-reverse"
 			],
 			[
-				"fle",
-				"flex-direction"
-			],
-			[
 				"max-",
 				"max-width"
 			],
 			[
 				"x",
 				"x"
-			],
-			[
-				"s",
-				"src\tAttr"
 			],
 			[
 				"fu",
@@ -156,16 +196,8 @@
 				"margin"
 			],
 			[
-				"padding",
-				"padding-top"
-			],
-			[
 				"flex-",
 				"flex-direction"
-			],
-			[
-				"padd",
-				"padding-left"
 			],
 			[
 				"flex",
@@ -174,10 +206,6 @@
 			[
 				"m",
 				"margin"
-			],
-			[
-				"c",
-				"cover"
 			],
 			[
 				"back",
@@ -194,14 +222,6 @@
 			[
 				"fi",
 				"fill"
-			],
-			[
-				"u",
-				"uppercase"
-			],
-			[
-				"pad",
-				"padding"
 			],
 			[
 				"30px",
@@ -248,20 +268,12 @@
 				"font-size"
 			],
 			[
-				"li",
-				"line-height"
-			],
-			[
 				"left",
 				"padding-left"
 			],
 			[
 				"margi",
 				"margin"
-			],
-			[
-				"h",
-				"height"
 			],
 			[
 				"wi",
@@ -303,7 +315,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 13306,
+				"buffer_size": 13906,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -312,7 +324,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 5326,
+				"buffer_size": 8322,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -451,15 +463,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13306,
+						"buffer_size": 13906,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11329,
-								11315
+								13906,
+								13906
 							]
 						],
 						"settings":
@@ -470,7 +482,7 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4180.0,
+						"translation.y": 5094.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -482,15 +494,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5326,
+						"buffer_size": 8322,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5104,
-								5104
+								8058,
+								8058
 							]
 						],
 						"settings":
@@ -501,7 +513,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6118.0,
+						"translation.y": 10158.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

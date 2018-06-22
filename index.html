@@ -36,7 +36,22 @@
           </nav>
 
           <nav class="mobileNav">
-            <!-- Здесь укажу меню в мобильной версии -->
+            <div class="mobileNav__upper">
+              <div class="mobileNav__logoWrapper">
+                <img class="mobileNav__logo" src="img/logo_mobile.png" alt="box logo" width="90" height="47">
+              </div>
+              <div class="mobileNav__buttonWrapper">
+                <button class="mobileNav__button"><img src="img/menu.png" width="32" height="22"></button>
+              </div>
+            </div>
+            <div class="mobileNav__main">
+              <p class="mobileNav__mainPrg1">תבניות לאתר</p>
+              <p class="mobileNav__mainPrg2">רספונסיבי</p>
+              <p class="mobileNav__mainPrg3">החל מ-</p>
+              <span class="mobileNav__mainSpn2">₪</span><span class="mobileNav__mainSpn1">15</span><span class="mobileNav__mainSpn3">לחודש</span>
+              <p class="mobileNav__mainPrg4">לכל התבניות</p>
+              <button class="mobileNav__buttonWrapper2"><img  class="mobileNav__buttonDownArrow" src="img/circ-arrow-down.png" width="20" height="20"></button>
+            </div>
           </nav>
 
     </header>
@@ -272,9 +287,11 @@
       </section>
 
       <section class="footerLinks">
-        <div class="footerLinks__picture" >
+        <picture class="footerLinks__picture" >
+          <source media="(min-width: 721px)" srcset="img/footer_links.png">
+          <source media="(max-width: 720px)" srcset="img/footer_links_mobile.png"> 
           <img src="img/footer_links.png" width="887">
-        </div>
+        </picture>
       </section>
 
     </footer>
