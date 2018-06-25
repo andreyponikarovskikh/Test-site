@@ -681,7 +681,6 @@ margin-right: 46px;
   padding-top: 30px;
 }
 
-
 /*-------------make adjustable view ---------------*/
 @media (max-width: 940px) {
   .mainBanner,
@@ -716,6 +715,61 @@ margin-right: 46px;
     display: block;
   }
 }
+
+/* ---------------- pop-up form --------------*/
+.popUpForm{
+  position: absolute;
+  top: 620px;
+  left: 25%;
+  width: 293px;
+  height: 397px;
+  box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+
+  padding-top: 25px;
+  padding-right: 10px;
+}
+
+.popUpForm__header{
+  display: block;
+  margin: 0 auto;
+  width: 244px;
+  height: 44px;
+  color: #333333;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+.popUpForm__name,
+.popUpForm__phone,
+.popUpForm__email{
+  margin: 0 auto;
+  margin-top: 40px;  
+  width: 267px;
+  height: 34px;
+  background-color: #ebebeb;
+  color: #333333;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 50px;
+
+  padding-right: 10px;
+}
+
+.popUpForm__button{
+  margin-right: 10px;
+  margin-top: 20px;
+  width: 264px;
+  height: 54px;
+  background-color: #f98006;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
 
 
 
