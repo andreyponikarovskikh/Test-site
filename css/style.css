@@ -681,6 +681,32 @@ margin-right: 46px;
   padding-top: 30px;
 }
 
+.newsletterMobile__input{
+  width: 235px;
+  height: 60px;
+  background-color: #ffffff;
+  color: #707070;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.newsletterMobile__button{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #68ae00;
+  border: 1px;
+  margin: 0;
+  margin-left: -5px; 
+  padding: 0;
+  top: 5px;
+}
+
 /*-------------make adjustable view ---------------*/
 @media (max-width: 940px) {
   .mainBanner,
