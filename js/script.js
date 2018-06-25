@@ -8,6 +8,7 @@ var clientName = popupForm.querySelector("[name=clientName]");
 popupButton.addEventListener("click", function (evt) {
 evt.preventDefault();
 popupForm.classList.toggle("popUpForm__popUp");
+setTimeout(function(){clientName.focus();},600);
 // clientName.focus(); 
  // на экране творится какая-то ерунда ?????
 });
