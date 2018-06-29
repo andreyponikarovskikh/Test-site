@@ -3,7 +3,8 @@
     font-weight: 700;
     font-style: normal; 
     font-display: swap;
-    src: url(../fonts/spoilerboldwebfont.ttf); 
+    src: url('../fonts/spoilerboldwebfont.woff2') format('woff2'),
+          url('../fonts/spoilerboldwebfont.ttf') format('truetype');
    }
 
 @font-face {
@@ -11,7 +12,8 @@
     font-weight: 400;
     font-style: normal; 
     font-display: swap;
-    src: url(../fonts/spoilerregularwebfont.ttf); 
+    src: url('../fonts/spoilerregularwebfont.woff2') format('woff2'),
+         url('../fonts/spoilerregularwebfont.ttf') format('truetype');
    }
 
 
@@ -41,7 +43,13 @@ body {
       line-height: 30px; } }*/
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  font-family: "FB Spoiler";
+   }
+
+button {
+  font-family: "FB Spoiler";
+}  
 
 .visually-hidden {
   position: absolute;
@@ -463,11 +471,13 @@ margin-right: 46px;
 }
 
 .newsletter div{
+  display: flex;
+  justify-content: flex-start;
   padding-top: 10px;
 }
 
 .newsletter__input{
-  width: 266px;
+  /*width: 266px;*/
   height: 39px;
   background-color: #ebebeb;
   color: #696969;
@@ -475,6 +485,7 @@ margin-right: 46px;
   font-weight: 400;
   line-height: 18px;
   padding: 0;
+  padding-left: 11.4%;
   border: none;
 }
 
@@ -488,9 +499,9 @@ margin-right: 46px;
   line-height: 18px;
   padding: 0;
   border: none;
-  position: relative;
+  /*position: relative;
   top: 2px;
-  left: 2px;
+  left: 2px;*/
 }
 
 .footerCopyright{
@@ -687,12 +698,21 @@ margin-right: 46px;
   padding-top: 30px;
 }
 
+
+.newsletterMobile__wrapper{
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+
+}
+
+
 .newsletterMobile__input{
   width: 235px;
   height: 60px;
   background-color: #ffffff;
   color: #707070;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 18px;
   text-align: center;
@@ -708,10 +728,32 @@ margin-right: 46px;
   background-color: #68ae00;
   border: 1px;
   margin: 0;
-  margin-left: -5px; 
   padding: 0;
-  top: 5px;
 }
+
+.mobileNav__mainNav{
+  /*display: flex;*/
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 76px;
+  left: 0px;
+}
+
+.mobileNav__mainNav_show{
+  display: flex;
+  transition:   left 2s ease-out 1s ;
+}
+
+.mobileNav__item{
+  width: 200px;
+}
+
+.mobileNav__item:hover,
+.mobileNav__item:focus{
+  background-color: #ffffff;
+}
+
 
 /*-------------make adjustable view ---------------*/
 @media (max-width: 940px) {

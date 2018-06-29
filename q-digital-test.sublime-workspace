@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"tra",
+				"transition"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"cl",
+				"clientName"
+			],
+			[
+				"popup",
+				"popupForm"
+			],
+			[
+				"pop",
+				"popupForm"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"t",
+				"text"
+			],
+			[
+				"i",
+				"input\tTag"
+			],
+			[
+				"f",
+				"form\tTag"
+			],
+			[
 				"di",
 				"display"
 			],
@@ -12,24 +60,12 @@
 				"newsletterMobile"
 			],
 			[
-				"marg",
-				"margin-bottom"
-			],
-			[
-				"mar",
-				"margin-top"
-			],
-			[
 				"j",
 				"jc-sa\tjustify-content: space-around;"
 			],
 			[
 				"sp",
 				"space-around"
-			],
-			[
-				"pa",
-				"padding-top"
 			],
 			[
 				"pad",
@@ -44,16 +80,8 @@
 				"background-color"
 			],
 			[
-				"t",
-				"transparent"
-			],
-			[
 				"text",
 				"text-align"
-			],
-			[
-				"padd",
-				"padding"
 			],
 			[
 				"margi",
@@ -160,10 +188,6 @@
 				"background"
 			],
 			[
-				"i",
-				"img\tTag"
-			],
-			[
 				"z",
 				"z-index"
 			],
@@ -238,10 +262,6 @@
 			[
 				"m",
 				"margin"
-			],
-			[
-				"f",
-				"flex-start"
 			],
 			[
 				"U",
@@ -331,19 +351,25 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 16318,
+				"buffer_size": 16870,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "@font-face {\n    font-family: \"FB Spoiler\";\n    font-weight: 700;\n    font-style: normal; \n    font-display: swap;\n    src: url(../fonts/spoilerboldwebfont.ttf); \n   }\n\n@font-face {\n    font-family: \"FB Spoiler\";\n    font-weight: 400;\n    font-style: normal; \n    font-display: swap;\n    src: url(../fonts/spoilerregularwebfont.ttf); \n   }\n\n\nbody {\n  padding: 0;\n  margin: 0 auto; \n  box-sizing: border-box;\n\n  unicode-bidi: bidi-override;/* Меняются характеристики текста*/\n  direction: rtl; /*Текст пишется справа налево*/\n\n  font-family: \"FB Spoiler\";\n  font-size: 24px;\n  line-height: 18px;\n  font-weight: 700;\n  color: #333333;\n\n  background-color: #ebebeb;\n  box-shadow: 0 5px 15px 0 rgba(0, 0, 1, 0.2);\n  max-width: 1920px;\n\n  min-width: 320px;\n}\n  /*@media (min-width: 960px) {\n    body {\n      font-size: 18px;\n      line-height: 30px; } }*/\n\na {\n  text-decoration: none; }\n\n.visually-hidden {\n  position: absolute;\n  overflow: hidden;\n  clip: rect(0 0 0 0);\n  height: 1px;\n  width: 1px;\n  margin: -1px;\n  padding: 0;\n  border: 0; }\n\n/* ------------- Header  -------------*/\n.upperNav{\n  display: flex;\n  flex-direction: row-reverse;\n  justify-content: center;\n  background: #404040;\n  height: 40px;\n  font-size: 18px;\n  font-weight: 400;\n  line-height: 18px;\n  padding-right: 13.8%;\n}\n.upperNav a{\n  color: #ffffff ;\n}\n\n.upperNav a:hover{\n  text-decoration: underline;\n}\n\n.upperFaq{\n  display: flex;\n  justify-content: center;\n  min-width: 270px;\n  margin-top: 0px; \n\n  position: relative;\n  top: 4px;\n  left: 15px;\n}\n\n.upperFaq__item{\n  display: flex;\n  flex-direction: row-reverse;\n  margin: auto 10px;\n}\n\n.upperFaq__item_alignPP{\n  position: relative;\n  top: -4px;\n  left: 0px;\n}\n\n.upperContacts{\n  display: flex;\n  min-width: 170px;\n  margin: 0px 87px;\n}\n\n.upperContacts__item{\n    margin: auto 15px;\n}\n\n.autorization{\n  display: flex;\n  min-width: 170px;\n  margin-top: 0px;\n\n  position: relative;\n  top: 0px;\n  right: -26px;\n}\n\n.autorization__item{\n  margin: auto 2px;\n  padding-top: 5px;\n  padding-right: 5px;\n  width: 60px;\n  height: 22px;\n  background-color: #f98006;\n  text-align: center;\n}\n\n.mainNav{\n  display: flex;\n  justify-content: flex-start;\n  box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.2);\n  background-color: #ffffff;\n  height: 80px;\n}\n\n.mainNav__logoWrapper{\n  display: flex;\n  justify-content: flex-end;\n  width: 34.5%;\n}\n\n.mainNav__logo{\n  margin:11px 0 5px 54px;\n}\n\n.mainNav__item{\n  width: 133px;\n  height: 42px;\n  margin-right: 7px;\n  margin-top: 25px;\n  border: none;\n  background-color: #ffffff;\n  font-size: 20px;\n  font-weight: 700;\n  outline: none;\n\n}\n\n.mainNav__item:hover,\n.mainNav__item:focus {\n  background-color: #f2f2f2;\n}\n\n.mainNav__item:active{\n  color: #f98006;\n}\n\n/*------------------Banner---------------------*/\n.mainBanner{\n  display: flex;\n  justify-content: center;\n  margin-top: 63px;\n  height: 518px;\n}\n\n.mainBanner__picture{\n  padding-left: 33px;\n}\n\n.mainBanner__aside{\n  width: 318px; \n}\n\n.mainBanner__header{\n  color: #68ae00;\n  font-size: 60px;\n  font-weight: 400;\n  line-height: 18px;\n  margin: 0;\n  padding-top: 15px;\n}\n\n.mainBanner__info{\n  color: #333333;\n  font-size: 20px;\n  font-weight: 400;\n  line-height: 24px;\n  margin: 0;\n  padding-top: 33px;\n}\n\n.mainBanner__link1{\n  color: #333333;\n  font-size: 24px;\n  font-weight: 700;\n  line-height: 18px;\n  padding-top: 17px;\n}\n\n.mainBanner__link2{\n  color: #f98006;\n  font-size: 24px;\n  font-weight: 700;\n  line-height: 18px;\n  margin: 0;\n  padding: 0;\n}\n\n.mainBanner__link2 p{\n  margin: 35px 53px 0 0; \n}\n\n.mainBanner__link2 span{\n  margin-right: 53px; \n}\n\n.mainBanner__link1 button,\n.mainBanner__link2 button{\n  border: none;\n}\n\n.mainBanner__button{\nwidth: 214px;\nheight: 51px;\nbackground-color: #f98006;\ncolor: #ffffff;\nfont-size: 23px;\nfont-weight: 700;\nline-height: 18px;\nwhite-space: nowrap;\nmargin-top: 69px;\nmargin-right: 46px;\n}\n\n/*----------------Sites gallery---------------*/\n.siteExamples{\n  min-width: 320px;\n  color: #333333;\n  margin: 0 auto;\n\n  padding-bottom: 94px;\n}\n\n.siteExamples__wrapper{\n  max-width: 940px;\n  margin: 0 auto;\n}\n\n.siteExamples__header{\n  font-size: 48px;\n  font-weight: 700;\n  line-height: 18px;\n  margin: 0;\n  margin-top: 39px;\n}\n\n.siteExamples__description{\n  font-size: 20px;\n  font-weight: 400;\n  line-height: 24px;\n  margin: 0;\n  padding-top: 28px;\n}\n\n.gallery{\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n  grid-gap:  23px 20px;\n  max-width: 940px;\n  margin: 0 auto;\n  padding-top: 42px;\n}\n\n.gallery__item_wrapper{\n  width: 300px;\n  height: 158px;\n}\n.gallery__item_wrapper img{\n  width: 100%;\n  /* height: 100%; */\n}\n\n/*Показываем 10 картинок вместо 15*/\n@media (max-width: 400px) {\n  .gallery__item_hidden{\n    display: none;\n}}\n\n/*------------------Footer-------------------*/\n\n.support{\n  max-width: 1920px;\n  height: 379px;\n  background-image: url(../img/support_bg.png);\n  background-repeat: no-repeat;\n  padding-top: 70px;\n}\n\n.support__header{\n  text-align: center;\n  width: 230px;\n  color: #68ae00;\n  font-size: 48px;\n  font-weight: 700;\n  line-height: 18px;\n  margin: 0 auto;\n  padding-bottom: 9px;\n}\n\n.support__info{\n  text-align: center;\n  width: 520px;\n  color: #333333;\n  font-size: 30px;\n  font-weight: 700;\n  line-height: 18px;\n\n  margin: 0 auto;\n  margin-top: 25px; \n}\n\n.support__menu{\n  display: flex;\n  justify-content: space-between;\n  width: 850px;\n  margin: 0 auto;\n  margin-top: 25px;\n}\n\n.support__item{\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n\n  text-align: center;\n  color: #333333;\n}\n\n.support__item h3{\n  font-size: 23px;\n  font-weight: 700;\n  line-height: 17.65px;\n  margin: 0 auto;\n  margin-top: 15px;\n}\n\n.support__item p{\n  font-size: 18px;\n  font-weight: 400;\n  line-height: 22px;\n  margin: 0 auto;\n  margin-top: 2px;\n}\n\n/*-------------footerMenu-------------*/\n.footerMenu{\n  display: flex;\n  justify-content: center;\n\n  height: 328px;\n  background-color: #43464a;\n  margin: 0 auto;\n  padding-top: 65px;\n  padding-right: 84px;\n}\n\n.joinUs{\n  width: 22.4%;\n}\n\n.clientAccount{\n  width: 8.0%;\n}\n\n.ourProducts{\n  width: 12.6%;\n}\n\n.clientServices{\n  width: 12.6%;\n}\n\n.joinUs__header{\n  color: #8cdd00;\n  font-size: 30px;\n  font-weight: 700;\n  margin-bottom: 20px;\n}\n\n.joinUs img{\n  padding-left: 25px;\n}\n\n.clientAccount__header,\n.ourProducts__header,\n.clientServices__header{\n  color: #8cdd00;\n  font-size: 30px;\n  font-weight: 700;  \n}\n\n.clientAccount a,\n.ourProducts a,\n.clientServices a{\n  text-decoration: none;\n  color: #ffffff;\n  font-size: 22px;\n  font-weight: 400;\n  line-height: 30px;\n}\n\n.clientAccount ul,\n.ourProducts ul,\n.clientServices ul{\n  list-style: none;\n  list-style-type: none; \n  padding: 0;\n  margin: -20px auto;\n}\n\n.clientAccount a:hover,\n.ourProducts a:hover,\n.clientServices a:hover{\n  text-decoration: underline;\n}\n\n.newsletter{\n  padding-top: 10px;\n}\n\n.newsletter__header{\n  color: #8cdd00;\n  font-size: 30px;\n  font-weight: 700;\n  margin: 0;\n  padding-top: 30px;\n}\n\n.newsletter__info{\n  color: #ffffff;\n  font-size: 18px;\n  font-weight: 400;\n  margin: 0;\n  padding-top: 10px;\n}\n\n.newsletter div{\n  padding-top: 10px;\n}\n\n.newsletter__input{\n  width: 266px;\n  height: 39px;\n  background-color: #ebebeb;\n  color: #696969;\n  font-size: 18px;\n  font-weight: 400;\n  line-height: 18px;\n  padding: 0;\n  border: none;\n}\n\n.newsletter__button{\n  width: 75px;\n  height: 39px;\n  background-color: #68ae00;\n  color: #ebebeb;\n  font-size: 22px;\n  font-weight: 700;\n  line-height: 18px;\n  padding: 0;\n  border: none;\n  position: relative;\n  top: 2px;\n  left: 2px;\n}\n\n.footerCopyright{\n  max-width: 1920px;\n  height: 62px;\n  background-color: #68ae00;\n\n  padding-top: 36px;\n}\n\n.footerCopyright__info{\n  color: #ffffff;\n  font-size: 30px;\n  font-weight: 400;\n  line-height: 18px;\n  text-align: center;\n  margin: 0 auto;\n}\n\n.footerLinks{\n  display: flex;\n  justify-content: center;\n  max-width: 1920px;\n  height: 292px;\n  background-color: #ffffff;\n}\n\n.footerLinks__picture{\n  max-width: 887px;\n  margin: 0 auto;\n  padding-top: 12px;\n}\n\n.footerLinks__picture img{\n  width: 100%;\n}\n\n /* ------------------ mobile -------------------- */\n\n.mobileNav{\n  display: none;\n}\n\n.mobileNav__upper{\n  min-width: 320px;\n  height: 76px;\n  display: flex;\n  justify-content: space-between;\n}\n\n.mobileNav__logo{\n  width: 90px;\n  height: 47px;\n}\n\n.mobileNav__button{\n  width: 32px;\n  height: 24px;\n  margin: 0;\n  padding: 0;\n  border: none;\n}\n\n.mobileNav__logoWrapper{\n  padding-top: 10px;\n  padding-right: 20px;\n}\n\n.mobileNav__buttonWrapper{\n  padding-left: 20px;\n  padding-top: 20px;\n}\n\n.mobileNav__main{\n  min-width: 320px;\n  height: 296px;\n  background-image: url(../img/banner.png);\n  text-align: center;\n  color: #fefefe;\n  font-size: 48px;\n  font-weight: 700;\n  line-height: 40px;\n  padding-top: 20px;\n}\n\n.mobileNav__mainPrg1{\n  margin: 0;\n  padding: 0;\n}\n\n.mobileNav__mainPrg2{\n  margin: 0;\n  padding: 0;\n}\n\n.mobileNav__mainPrg3{\n  font-size: 36px;\n  font-weight: 400;\n  margin: 0;\n  padding: 0;\n  margin-top: 10px;\n  margin-bottom: 15px;\n  padding-left: 100px;\n}\n\n.mobileNav__mainSpn1{\n  font-size: 137px;\n  font-weight: 400;\n}\n\n.mobileNav__mainSpn2{\n  font-size: 19px;\n  font-weight: 700;\n}\n\n.mobileNav__mainSpn3{\n  font-size: 36px;\n  font-weight: 400;\n}\n\n.mobileNav__mainPrg4{\n  font-size: 24px;\n  font-weight: 400;\n  margin: 0;\n  margin-top: -4px;\n}\n\n.mobileNav__buttonWrapper2{\n  color: transparent;\n  background-color: transparent;\n  border: none;\n}\n\n.mobileFooter{\n  display: none;\n}\n\n.mobileFooter__upper{\n  min-width: 320px;\n  height: 109px;\n  background-color: #68ae00;\n  color: #ffffff;\n  text-align: center;\n  font-size: 24px;\n  font-weight: 400;\n  line-height: 18px;\n\n  padding-top: 35px;\n}\n\n.mobileFooter__upper p{\n  margin: 0;\n}\n\n.mobileFooter__upperContactsWrapper{\n  display: flex;\n  justify-content: space-around;\n  padding-top: 20px;\n}\n\n.joinUsMobile{\n  min-width: 290px;\n  height: 347px;\n  background-color: #43464a;\n  text-align: center;\n  color: #8cdd00;\n  font-size: 30px;\n  font-weight: 700;\n  line-height: 19.7px;\n\n  padding-top: 45px;\n}\n\n.joinUsMobile__header{\n  margin: 0;\n}\n\n.joinUsMobile__links{\n  display: flex;\n  justify-content: space-around;\n  margin-top: 30px;\n  margin-bottom: 50px;\n}\n\n.newsletterMobile__linkMainSite{\n  color: #ffffff;\n  font-size: 22px;\n  font-weight: 700;\n  line-height: 18px;\n  text-decoration: underline;\n}\n\n.newsletterMobile__linkMainSiteShelter{\n  padding-top: 30px;\n}\n\n/*-------------make adjustable view ---------------*/\n@media (max-width: 940px) {\n  .mainBanner,\n  .footerMenu,\n  .support,\n  .mainNav,\n  .footerCopyright,\n  .upperNav{\n    display: none;\n  }\n\n  .siteExamples__header{\n    font-size: 38px;\n    font-weight: 700;\n    line-height: 24px;\n    margin: 0;\n    margin-top: 39px;\n  }\n\n  .siteExamples__description{\n    font-size: 17px;\n    font-weight: 400;\n    margin: 0;\n    padding-top: 8px;\n  }\n\n}\n\n@media (max-width: 939px){\n  .mobileNav,\n  .mobileFooter{\n    display: block;\n  }\n}\n\n\n\n",
 			"file": "css/style.css",
-			"file_size": 11727,
-			"file_write_time": 131741386037870484,
 			"settings":
 			{
-				"buffer_size": 10929,
+				"buffer_size": 12798,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/script.js",
+			"settings":
+			{
+				"buffer_size": 857,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -474,7 +500,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -483,15 +509,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16318,
+						"buffer_size": 16870,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14495,
-								14507
+								227,
+								182
 							]
 						],
 						"settings":
@@ -502,10 +528,10 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5673.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -514,15 +540,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10929,
+						"buffer_size": 12798,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10397,
-								10397
+								12549,
+								12549
 							]
 						],
 						"settings":
@@ -533,10 +559,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 13858.0,
+						"translation.y": 16038.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 857,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								455,
+								455
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

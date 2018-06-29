@@ -8,9 +8,8 @@ var clientName = popupForm.querySelector("[name=clientName]");
 popupButton.addEventListener("click", function (evt) {
 evt.preventDefault();
 popupForm.classList.toggle("popUpForm__popUp");
+// переводим фокус на popUp форму
 setTimeout(function(){clientName.focus();},600);
-// clientName.focus(); 
- // на экране творится какая-то ерунда ?????
 });
 
 formButton.addEventListener("click", function (evt) {
@@ -27,3 +26,14 @@ if (evt.keyCode === 27) {
   }
 }
 });
+
+var mobileMenu = document.querySelector(".mobileNav__mainNav");
+var mobileMenuButton = document.querySelector(".mobileNav__button");
+
+mobileMenuButton.addEventListener("click", function (evt){
+  evt.preventDefault();
+  mobileMenu.classList.toggle("mobileNav__mainNav_show");
+});
+
+
+
